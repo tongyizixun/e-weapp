@@ -2,7 +2,7 @@
  * @Author: 刘利军
  * @Date: 2021-12-07 19:18:59
  * @LastEditors: 刘利军
- * @LastEditTime: 2021-12-31 15:19:26
+ * @LastEditTime: 2022-01-07 14:17:09
  * @Description:
  * @PageName:
  */
@@ -10,7 +10,6 @@
 import { requestAnimationFrame } from "../common/utils";
 // 阶段类名
 const getClassNames = function (moveName: string) {
-  console.log("moveName", moveName);
   return {
     enter: `e-${moveName}-enter e-${moveName}-enter-active `,
     "enter-to": `e-${moveName}-enter-to e-${moveName}-enter-active`,

@@ -1,0 +1,30 @@
+<demo-block title="基本用法"/>
+<e-tabs current="{{ current }}" bindchange="handleChange">
+    <e-tab key="tab1" title="选项1"/>
+    <e-tab key="tab2" title="选项2"/>
+    <e-tab key="tab3" title="选项3"/>
+</e-tabs>
+<demo-block title="自定义主题色"/>
+<e-tabs current="{{ current }}" color="#f759ab" bindchange="handleChange">
+    <e-tab key="tab1" title="选项1"/>
+    <e-tab key="tab2" title="选项2"/>
+    <e-tab key="tab3" title="选项3"/>
+</e-tabs>
+<demo-block title="徽标"/>
+<e-tabs current="{{ current }}" bindchange="handleChange">
+    <e-tab key="tab1" title="选项1" count="3"/>
+    <e-tab key="tab2" title="选项2"/>
+    <e-tab key="tab3" title="选项3" dot/>
+</e-tabs>
+<demo-block title="滚动"/>
+<e-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
+    <e-tab key="tab1" title="选项1"/>
+    <e-tab key="tab2" title="选项2"/>
+    <e-tab key="tab3" title="选项3"/>
+    <e-tab key="tab4" title="选项4"/>
+    <e-tab key="tab5" title="选项5"/>
+    <e-tab key="tab6" title="选项6"/>
+    <e-tab key="tab7" title="选项7"/>
+    <e-tab key="tab8" title="选项8"/>
+    <e-tab key="tab9" title="选项9"/>
+</e-tabs>

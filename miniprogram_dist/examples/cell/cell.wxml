@@ -1,0 +1,46 @@
+<view class="page">
+    <view class="page__bd">
+        <demo-block class="cell-panel-demo">
+            <e-cell title="单行列表"/>
+        </demo-block>
+        <demo-block class="cell-panel-demo">
+            <e-cell title="单行列表" link value="详细信息"/>
+        </demo-block>
+        <demo-block class="cell-panel-demo">
+            <e-cell title="单行列表" label="附加描述" value="详细信息"/>
+        </demo-block>
+        <demo-block class="cell-panel-demo" title="带 icon 的 Cell">
+            <e-cell title="单行列表" value="详细信息">
+                <e-icon type="like_fill" slot="icon"/>
+            </e-cell>
+        </demo-block>
+        <demo-block class="cell-panel-demo" title="带箭头的 cell">
+            <e-cell title="只显示箭头" link/>
+        </demo-block>
+        <demo-block class="cell-panel-demo">
+            <e-cell title="跳转到首页" link url="/examples/index/index"/>
+        </demo-block>
+        <demo-block class="cell-panel-demo" title="cell 组">
+            <e-cells>
+                <e-cell title="只显示箭头" link/>
+                <e-cell title="跳转到首页" link url="/examples/index/index"/>
+                <e-cell title="只有 footer 点击有效" link url="/examples/index/index" only-tap-footer/>
+                <!-- <block wx:if="{{ switch1 }}">
+                    <e-cell title="单行列表" label="附加描述" value="详细信息"></e-cell>
+                    <e-cell title="表单">
+                        <input slot="footer" type="digit" placeholder="带小数点的数字键盘" />
+                    </e-cell>
+                </block>
+                <e-cell title="开关">
+                    <e-switch value="{{ switch1 }}" bind:change="onChange" slot="footer">
+                        <e-icon type="right" slot="open"></e-icon>
+                        <e-icon type="close" slot="close"></e-icon>
+                    </e-switch>
+                </e-cell> -->
+            </e-cells>
+        </demo-block>
+        <demo-block class="cell-panel-demo">
+            <e-cell title="单行列表" label="附加描述" value="详细信息"/>
+        </demo-block>
+    </view>
+</view>

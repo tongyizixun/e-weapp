@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "examples/index/index",
+    "examples/button/button",
+    "examples/cell/cell",
+    "examples/icon/icon",
+    "examples/transition/transition",
+    "examples/badge/badge",
+    "examples/card/card",
+    "examples/overlay/overlay",
+    "examples/collapse/collapse",
+    "examples/tabs/tabs",
+    "examples/toast/toast"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

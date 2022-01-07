@@ -1,0 +1,4 @@
+<!-- components/overlay/overlay.wxml -->
+<e-transition show="{{ show }}" e-class="e-overlay" duration="{{ duration }}" bind:tag="onClick">
+    <slot/>
+</e-transition>

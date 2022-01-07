@@ -1,0 +1,15 @@
+.e-toast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  color: #fff;
+  font-size: 18;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+

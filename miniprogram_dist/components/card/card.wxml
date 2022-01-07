@@ -1,0 +1,16 @@
+<!-- components/card/index.wxml -->
+<view class="e-class e-card {{ full ? 'e-card-full' : '' }}">
+    <view class="e-class e-card-header" wx:if="{{ extra || title || thumb }}">
+        <view class="e-card-header-content">
+            <image class="e-card-header-thumb" src="{{ thumb }}" mode="aspectFit" wx:if="{{ thumb }}"/>
+            {{ title }}
+        </view>
+        <view class="e-card-header-extra" wx:if="{{ extra }}">{{ extra }}</view>
+    </view>
+    <view class="e-class e-card-body">
+        <slot name="content"/>
+    </view>
+    <view class="e-class e-card-footer">
+        <slot name="footer"/>
+    </view>
+</view>

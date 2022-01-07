@@ -1,0 +1,26 @@
+.e-collapse-item {
+  padding: 2px 8px;
+  border-top: 1px solid #dddee1;
+}
+.e-collapse-item-title {
+  vertical-align: middle;
+}
+.e-collapse-item-title-wrap {
+  padding: 2px 0 0;
+}
+.e-collapse-item-content {
+  padding: 6px;
+  display: none;
+}
+.e-collapse-item-show-content {
+  display: block;
+}
+.e-collapse-item-arrow {
+  transition: transform 1s ease-in-out;
+}
+.e-collapse-item-arrow-show {
+  transition: transform 1s ease-in-out;
+  transform: rotate(90deg);
+}
+
+

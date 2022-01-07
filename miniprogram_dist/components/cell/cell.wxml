@@ -1,0 +1,17 @@
+<!-- components/list-item/index.wxml -->
+<view bindtap="handleTap" class="e-class e-cell {{ isLastCell ? 'e-cell-last' : '' }} {{ link ? 'e-cell-access' : '' }}">
+    <view class="e-cell-icon">
+        <slot name="icon"/>
+    </view>
+    <view class="e-cell-bd">
+        <view wx:if="{{ title }}" class="e-cell-text">{{ title }}</view>
+        <view wx:if="{{ label }}" class="e-cell-desc">{{ label }}</view>
+        <slot/>
+    </view>
+    <view catchtap="navigateTo" class="e-cell-ft">
+        <block wx:if="{{value}}">{{ value }}</block>
+        <block wx:else>
+            <slot name="footer"/>
+        </block>
+    </view>
+</view>

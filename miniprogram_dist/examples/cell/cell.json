@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Cell 单元格",
+  "usingComponents": {
+    "e-cells": "../../components/cells/cells",
+    "e-cell": "../../components/cell/cell",
+    "demo-block": "../components/demo-block/demo-block"
+  }
+}

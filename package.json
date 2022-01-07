@@ -1,6 +1,6 @@
 {
   "name": "e-weapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "mpflow-service build",
     "dev": "mpflow-service dev",

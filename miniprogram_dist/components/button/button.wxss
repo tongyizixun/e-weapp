@@ -1,0 +1,27 @@
+.e-btn {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.e-btn-primary {
+  background-color: #fd6b00 !important;
+}
+.e-btn-success {
+  background-color: hsl(150, 77%, 42%) !important;
+}
+.e-btn-ghost {
+  color: #000;
+}
+.e-btn-warning {
+  background-color: #ff9900 !important;
+}
+.e-btn-error {
+  background-color: #ed3f14 !important;
+}
+.e-btn-info {
+  background-color: #2db7f5 !important;
+}
+button[size="large"] {
+  width: 100%;
+}
+
+

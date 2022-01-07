@@ -1,0 +1,6 @@
+.cell-panel-demo {
+  display: block;
+  margin-top: 15px;
+}
+
+

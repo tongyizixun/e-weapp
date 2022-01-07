@@ -1,0 +1,14 @@
+<e-transition show="{{ show }}" duration="{{duration}}">
+    <view class="e-class e-toast">
+    <block wx:if="{{ type !== 'text' }}">
+        <view class="e-toast-type">
+            <e-icon e-class="e-toast-icon" type="{{type}}" wx:if="{{ type !== 'loading' }}"/>
+            <view class="e-toast-icon e-toast-loading" wx:else/>
+        </view>
+    </block>
+    <block wx:else>
+        <e-icon e-class="e-toast-icon" type="{{ icon }}" wx:if="{{ icon }}"/>
+        <image class="e-toast-image" src="{{ image }}" wx:if="{{ image }}" mode="aspectFit"/>
+    </block>
+    <view class="i-toast-content" wx:if="{{ content }}">{{ content }}</view>
+</view></e-transition>

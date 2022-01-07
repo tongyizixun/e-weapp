@@ -1,0 +1,12 @@
+<demo-block title="基础用法">
+    <e-overlay show="{{show}}" bind:tap="onClickHide"/>
+    <e-button type="primary" bind:tap="onClickShow">显示遮罩层</e-button>
+</demo-block>
+<demo-block title="嵌入内容">
+    <e-overlay show="{{embedShow}}" bind:tap="embedShowHide">
+        <view class="wrapper">
+            <view class="block"/>
+        </view>
+    </e-overlay>
+    <e-button type="primary" bind:tap="embedShowShow">嵌入内容</e-button>
+</demo-block>

@@ -1,0 +1,25 @@
+.page {
+  background-color: #fff;
+}
+.page__hd {
+  padding: 40px;
+}
+.page__title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+.page__desc {
+  margin-top: 5px;
+  color: var(--weui-FG-1);
+  text-align: left;
+  font-size: 14px;
+}
+.kind-list__item-bd {
+  background-color: #ddd;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+}
+
+

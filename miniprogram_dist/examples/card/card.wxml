@@ -1,0 +1,19 @@
+<view class="page">
+    <demo-block title="默认"/>
+    <e-card title="标题" extra="额外内容" thumb="https://img01.yzcdn.cn/vant/ipad.jpeg">
+        <view slot="content">内容不错</view>
+        <view slot="footer">尾部内容</view>
+    </e-card>
+    <demo-block title="通栏">
+        <e-card full title="标题" extra="额外内容" thumb="https://img01.yzcdn.cn/vant/ipad.jpeg">
+            <view slot="content">内容不错</view>
+            <view slot="footer">尾部内容</view>
+        </e-card>
+    </demo-block>
+    <demo-block title="自定义图片样式">
+        <e-card full title="标题" extra="额外内容" thumb="https://img01.yzcdn.cn/vant/ipad.jpeg" e-class="card-demo">
+            <view slot="content">内容不错</view>
+            <view slot="footer">尾部内容</view>
+        </e-card>
+    </demo-block>
+</view>

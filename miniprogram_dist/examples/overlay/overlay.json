@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Overlay 遮罩层",
+  "usingComponents": {
+    "e-overlay": "../../components/overlay/overlay",
+    "e-button": "../../components/button/button",
+    "demo-block": "../components/demo-block/demo-block"
+  }
+}

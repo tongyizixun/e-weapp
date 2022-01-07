@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Tabs 标签页",
+  "usingComponents": {
+    "e-button": "../../components/button/button",
+    "e-transition": "../../components/transition/transition",
+    "demo-block": "../components/demo-block/demo-block"
+  }
+}

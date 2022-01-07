@@ -1,0 +1,9 @@
+<!-- components/list/index.wxml -->
+<view class="e-class demo-block">
+    <view wx:if="{{ title }}" class="demo-block-title {{ hideTop ? 'demo-block-title-hide-top' : '' }}">
+        {{ title }}
+    </view>
+    <view class="demo-block-content {{ hideBorder ? 'demo-block-without-border' : '' }}">
+        <slot/>
+    </view>
+</view>

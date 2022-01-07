@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Collapse 折叠面板",
+  "usingComponents": {
+    "e-collapse": "../../components/collapse/collapse",
+    "e-collapse-item": "../../components/collapse-item/collapse-item",
+    "demo-block": "../components/demo-block/demo-block"
+  }
+}

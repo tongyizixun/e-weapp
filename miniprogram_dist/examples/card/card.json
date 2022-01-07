@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Card 卡片",
+  "usingComponents": {
+    "e-card": "../../components/card/card",
+    "demo-block": "../components/demo-block/demo-block"
+  }
+}

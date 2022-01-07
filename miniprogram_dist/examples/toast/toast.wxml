@@ -1,0 +1,8 @@
+<demo-block title="基础用法">
+    <e-button type="primary" bind:tap="handleDefault">默认提示</e-button>
+    <e-button type="primary" bind:tap="handleSuccess">成功提示</e-button>
+    <e-button type="primary" bind:tap="handleWarning">警告提示</e-button>
+    <e-button type="primary" bind:tap="handleError">异常提示</e-button>
+    <e-button type="primary" bind:tap="handleDuration">自定义持续时间</e-button>
+</demo-block>
+<e-toast id="e-toast"/>

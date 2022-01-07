@@ -1,0 +1,37 @@
+.demo-block {
+  position: relative;
+  overflow: hidden;
+}
+.demo-block-title {
+  font-size: 14px;
+  line-height: 1;
+  color: #1c2438;
+  padding: 20px 16px 10px;
+}
+.demo-block-title-hide-top {
+  padding-top: 0;
+}
+.demo-block-content {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+.demo-block-content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #e9eaec;
+  border-bottom-width: 1px;
+}
+.demo-block-without-border::after {
+  border: 0 none;
+}
+
+

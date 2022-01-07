@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Badge 徽标",
+  "usingComponents": {
+    "e-badge": "../../components/badge/badge",
+    "demo-block": "../components/demo-block/demo-block"
+  }
+}
