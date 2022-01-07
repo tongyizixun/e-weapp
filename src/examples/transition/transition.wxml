@@ -1,0 +1,16 @@
+<demo-block title="fade">
+    <e-button type="primary" e-class="demo-button" bind:tap="fade">fade</e-button>
+    <e-button type="primary" e-class="demo-button" bind:tap="fadeUp">fade-up</e-button>
+    <e-button type="primary" e-class="demo-button" bind:tap="fadeDown">fade-down</e-button>
+    <e-button type="primary" e-class="demo-button" bind:tap="fadeLeft">fade-left</e-button>
+    <e-button type="primary" e-class="demo-button" bind:tap="fadeRight">fade-right</e-button>
+</demo-block>
+<demo-block title="slide">
+    <e-button type="primary" e-class="demo-button" bind:tap="slideUp">slide-up</e-button>
+    <e-button type="primary" e-class="demo-button" bind:tap="slideDown">slide-down</e-button>
+    <e-button type="primary" e-class="demo-button" bind:tap="slideLeft">slide-left</e-button>
+    <e-button type="primary" e-class="demo-button" bind:tap="slideRight">slide-right</e-button>
+</demo-block>
+<e-transition show="{{show}}" name="{{name}}" e-class="square" bind:after-enter="afterEnter">
+    <view></view>
+</e-transition>

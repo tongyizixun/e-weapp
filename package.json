@@ -1,0 +1,31 @@
+{
+  "name": "e-weapp",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mpflow-service build",
+    "dev": "mpflow-service dev",
+    "dev:open": "mpflow-service dev --open",
+    "test:e2e": "mpflow-service test:e2e",
+    "test:unit": "mpflow-service test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tongyizixun/e-weapp.git"
+  },
+  "dependencies": {
+    "@mpflow/plugin-babel": "^0.0.36",
+    "@mpflow/plugin-css": "^0.0.32",
+    "@mpflow/plugin-e2e-test": "^0.0.32",
+    "@mpflow/plugin-typescript": "^0.0.32",
+    "@mpflow/plugin-unit-test": "^0.0.32",
+    "@mpflow/service": "^0.0.32"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@types/jest": "^26.0.9",
+    "@types/wechat-miniprogram": "^2.11.0",
+    "miniprogram-simulate": "^1.2.7",
+    "typescript": "^3.9.7"
+  },
+  "miniprogram": "miniprogram_dist"
+}

@@ -1,0 +1,32 @@
+<!--components/e/input/index.wxml-->
+<view class="e-class e-cell e-input {{ error ? 'e-input-error' : '' }} {{ mode === 'wrapped' ? 'e-input-wrapped' : '' }}">
+    <view wx:if="{{ title }}" class="e-cell-hd e-input-title">{{ title }}</view>
+    <textarea
+        wx:if="{{ type === 'textarea' }}"
+        auto-height
+        disabled="{{ disabled }}"
+        focus="{{ autofocus }}"
+        value="{{ value }}"
+        placeholder="{{ placeholder }}"
+        maxlength="{{ maxlength }}"
+        class="e-input-input e-cell-bd {{ right ? 'e-input-input-right' : '' }}"
+        placeholder-class="e-input-placeholder"
+        bindinput="handleInputChange"
+        bindfocus="handleInputFocus"
+        bindblur="handleInputBlur"
+    ></textarea>
+    <input
+        wx:else
+        type="{{ type }}"
+        disabled="{{ disabled }}"
+        focus="{{ autofocus }}"
+        value="{{ value }}"
+        placeholder="{{ placeholder }}"
+        maxlength="{{ maxlength }}"
+        class="e-input-input e-cell-bd {{ right ? 'e-input-input-right' : '' }}"
+        placeholder-class="e-input-placeholder"
+        bindinput="handleInputChange"
+        bindfocus="handleInputFocus"
+        bindblur="handleInputBlur"
+    />
+</view>

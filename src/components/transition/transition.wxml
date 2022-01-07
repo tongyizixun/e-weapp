@@ -1,0 +1,3 @@
+<view wx:if="{{ inited }}" class="e-transition e-class {{ classes }}" style="transition-duration: {{ duration }}s;-webkit-transition: {{ duration }}s; {{display ? '' : 'display: none'}};" bind:transitionend="onTransitionEnd">
+  <slot />
+</view>

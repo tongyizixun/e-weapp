@@ -1,0 +1,5 @@
+<view class="e-class e-badge">
+    <slot></slot>
+    <view class="e-badge-dot" wx:if="{{ dot }}"></view>
+    <view class="e-badge-count e-class-alone" wx:elif="{{ count !== 0 }}">{{ finalCount }}</view>
+</view>

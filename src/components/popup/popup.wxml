@@ -1,0 +1,4 @@
+<!-- components/popup/popup.wxml -->
+<e-transition>
+  <text>components/popup/popup.wxml</text>
+</e-transition>

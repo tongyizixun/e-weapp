@@ -1,0 +1,56 @@
+/* components/e/input/index.wxss */
+
+@import "../cell/index.less";
+@import "../styles/base.less";
+@import "../styles/mixins.less";
+
+.e-input {
+  padding: 7px 15px;
+  color: var(--text-color);
+
+  &-wrapped {
+    margin: 10px 15px;
+    background-color: #fff;
+    &::after {
+      left: 0;
+      border-width: 1px;
+      border-radius: 4px;
+    }
+  }
+
+  &-error {
+    color: var(--error-color);
+  }
+
+  &-title {
+    color: var(--text-color);
+    min-width: 65px;
+    padding-right: 10px;
+  }
+
+  &-placeholder {
+    font-size: var(--size-font-base);
+  }
+
+  &-input {
+    flex: 1;
+    line-height: 1.6;
+    padding: 4px 0;
+    min-height: 22px;
+    height: auto;
+    font-size: 14px;
+    &-right {
+      text-align: right;
+    }
+  }
+}
+
+/* 圆角输入框，强制展示边框 */
+.e-input.e-input-wrapped::after {
+  display: block;
+}
+
+/* 圆角输入框出现错误时，将边框置红 */
+.e-input-wrapped.i-input-error::after {
+  border-color: var(--error-color);
+}

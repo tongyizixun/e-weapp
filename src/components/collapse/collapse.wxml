@@ -1,0 +1,4 @@
+<!--components/collapse/index.wxml-->
+<view class="e-class e-collapse" bindcollapse="clickfn">
+  <slot></slot>
+</view>

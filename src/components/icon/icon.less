@@ -1,0 +1,52 @@
+@import "../styles/base.less";
+@import "../styles/mixins.less";
+
+.e-icon {
+  display: inline-block;
+  font-family: "iconfont";
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 3034328 */
+  src: url("iconfont.woff2?t=1640938207016") format("woff2"),
+    url("iconfont.woff?t=1640938207016") format("woff"),
+    url("iconfont.ttf?t=1640938207016") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.e-success:before {
+  content: "\e72d";
+}
+
+.e-fail:before {
+  content: "\ed1a";
+}
+
+.e-warning:before {
+  content: "\e637";
+}
+
+.e-shangla:before {
+  content: "\e609";
+}
+
+.e-xiala:before {
+  content: "\e6b9";
+}

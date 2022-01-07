@@ -1,0 +1,27 @@
+<view class="container">
+    <demo-block title="基本用法">
+        <view class="demo">
+            <e-badge dot>
+                <view class="demo-badge"></view>
+            </e-badge>
+        </view>
+        <view class="demo">
+            <e-badge count="3">
+                <view class="demo-badge"></view>
+            </e-badge>
+        </view>
+        <view class="demo">
+            <e-badge count="123" overflow-count="100">
+                <view class="demo-badge"></view>
+            </e-badge>
+        </view>
+    </demo-block>
+    <demo-block title="独立展示">
+        <view class="demo">
+            <e-badge count="66"></e-badge>
+        </view>
+        <view class="demo">
+            <e-badge count="66" e-class-alone="demo-badge-alone"></e-badge>
+        </view>
+    </demo-block>
+</view>

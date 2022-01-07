@@ -1,0 +1,13 @@
+<view class="e-class e-tabs-tab {{ scroll ? 'e-tabs-tab-scroll' : '' }} {{ current ? 'e-tabs-tab-current' : '' }}">
+    <e-badge dot="{{ dot }}" count="{{ dot ? 0 : count }}">
+        <view bindtap="handleClickItem">
+            <view class="e-tabs-tab-title {{ current ? 'e-tabs-tab-title-current' : '' }}" wx:if="{{ current && currentColor }}" style="color: {{ currentColor }}">
+                {{ title }}
+            </view>
+            <view class="e-tabs-tab-title {{ current ? 'e-tabs-tab-title-current' : '' }}" wx:else>
+                {{ title }}
+            </view>
+        </view>
+    </e-badge>
+    <view class="e-tabs-tab-bar" wx:if="{{ current }}" style="background: {{ currentColor }}"></view>
+</view>

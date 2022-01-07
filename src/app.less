@@ -1,0 +1,67 @@
+page {
+  height: 100%;
+}
+.page {
+  min-height: 100%;
+  background-color: #f7f8fa;
+  color: var(--weui-FG-0);
+  font-size: 16px;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fadeIn {
+  -webkit-animation: a 0.3s forwards;
+  animation: a 0.3s forwards;
+}
+.fadeOut {
+  -webkit-animation: b 0.3s forwards;
+  animation: b 0.3s forwards;
+}
+@-webkit-keyframes a {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes a {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes b {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes b {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.page__bd {
+  padding-bottom: 40px;
+}
+.page__bd_spacing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.weui-cell_example:before {
+  left: 52px;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button 按钮",
+  "usingComponents": {
+    "e-button": "../../components/button/button",
+    "demo-block": "../components/demo-block/demo-block"
+  }
+}

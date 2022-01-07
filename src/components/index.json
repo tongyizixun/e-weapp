@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "e-button": "./button/button",
+    "e-cell": "./cell/cell",
+    "e-cells": "./cells/cells",
+    "e-popup": "./popup/popup",
+    "e-badge": "./badge/badge",
+    "e-card": "./card/card",
+    "e-collapse": "./collapse/collapse",
+
+    "e-overlay": "./overlay/overlay",
+    "e-tabs": "./tabs/tabs",
+    "e-tab": "./tab/tab",
+    "e-toast": "./toast/toast"
+  }
+}

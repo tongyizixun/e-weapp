@@ -1,0 +1,10 @@
+<!-- components/collapse-item/index.wxml -->
+<view id="{{name}}" class="e-class e-collapse-item ">
+    <view class="e-collapse-item-title-wrap" bindtap="trigger">
+        <e-icon size="16" type="shangla" e-class="{{ showContent ? 'e-collapse-item-arrow-show' : 'e-collapse-item-arrow' }}" />
+        <text class="e-collapse-item-title e-class-title">{{title}}</text>
+    </view>
+    <view class="e-collapse-item-content {{showContent}}  e-class-content">
+        <slot name="content"></slot>
+    </view>
+</view>
